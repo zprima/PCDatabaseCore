@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = 'https://twitter.com/pawelnuzka'
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.7'
+  s.source = { :git => “https://github.com/virusss8/PCDatabaseCore.git” }
 
   s.source_files  = 'PCDatabaseCore', 'PCDatabaseCore/**/*.{h,m}'
   s.public_header_files = "PCDatabaseCore/**/*.h"
